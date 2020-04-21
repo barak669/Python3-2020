@@ -1,8 +1,13 @@
 ID = (input("Enter your ID: "))
 w = [1,2,1,2,1,2,1,2,1]
+int i
 
 
 
 
-print(w[1])
-print(ID[0])
+counter=0
+while counter<len(ID):
+    sum = ID[i] * w[i]
+    counter+=1
+
+print(sum)

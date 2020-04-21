@@ -4,7 +4,10 @@ w = [1,2,1,2,1,2,1,2,1]
 
 
 
+
 counter=0
-for (i = 0, i<len(ID), i++)
-    int (ID) * int(w)
+while counter<len(ID):
+    sum = ID[i] * w[i]
     counter+=1
+
+print(sum)
