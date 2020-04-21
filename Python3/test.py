@@ -1,9 +1,8 @@
-ID = int (input("Enter your ID: "))
-w=121212121
-
-print(ID)
-print(w)
+ID = (input("Enter your ID: "))
+w = [1,2,1,2,1,2,1,2,1]
 
 
 
+
+print(w[1])
 print(ID[0])

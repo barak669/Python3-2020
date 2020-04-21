@@ -1,14 +1,10 @@
-  
 ID = (input("Enter your ID: "))
-w="121212121"
+w = [1,2,1,2,1,2,1,2,1]
 
-print(int(ID))
-print(int(w))
+
 
 
 counter=0
-while counter<10:
-    ID*w
+for (i = 0, i<len(ID), i++)
+    int (ID) * int(w)
     counter+=1
-    print(int(ID))
-    print(int(w))
