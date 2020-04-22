@@ -1,18 +1,26 @@
-num = int(input("Enter your number: "))
+ID = (input("Enter your ID: "))
+w = [1,2,1,2,1,2,1,2,1]
+counter=0
+counter1=0
+sum1=0
+
+print(ID)
+print(w)
 
 
-if num<=9:
-    print("output:" ,num)
+while counter<len(ID):
+  sum = int(ID[counter]) * (w[counter])
 
-elif num>=10 and num<=99:
-	sum=(num%10+int (num/10))
-	print(num%10+int (num/10))
-	print("output:" ,num ,"is 2 digit number sum is",sum)
+  counter+=1
+  
+for x in sum:
+  print(sum, end = ' ')
 
-elif num>=100 and num<=999:
-	mul=((num%10)*(int(num%100/10))*(int(num/100)) ) 
-	print((num%10)*(int(num%100/10))*(int(num/100)) )
-	print("output:" ,num ,"is 3 digit number mul is",mul)
+  
 
-else:
-	print("output: number has more than 3 digits")
+  
+	 
+	
+
+
+
