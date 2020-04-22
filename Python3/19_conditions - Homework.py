@@ -1,34 +1,8 @@
 num=int(input("enter number:"))
+arr=["zero","one","two","three","four","five","six","seven","eight","nine"]
 
-if num == 0:
-    print ("output:","zero")
-
-if num == 1:
-    print ("output:","one")
-
-if num == 2:
-    print ("output:","two")
-
-if num == 3:
-    print ("output:","three")
-
-if num == 4:
-    print ("output:","four")
-
-if num == 5:
-    print ("output:","five")
-
-if num == 6:
-    print ("output:","six")
-
-if num == 7:
-    print ("output:","seven")
-
-if num == 8:
-    print ("output:","eight")
-
-if num == 9:
-    print ("output:","nine")
+if num<10:
+    print("One Digit",arr[num])
 
 elif num>=10 and num<=99:
 	sum=(num%10+int (num/10))
