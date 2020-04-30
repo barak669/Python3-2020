@@ -12,8 +12,7 @@ while counter<len(ID):
     sum = int(ID[counter]) * (w[counter])
     counter+=1 
     print(sum, end= ' ')
- 
-   
+
 
 
 while counter1<len(ID):
@@ -25,5 +24,4 @@ while counter1<len(ID):
        sum = (sum%10) + (sum//10)
        print()
        print(sum, end = ' ')
-       
 
