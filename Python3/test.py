@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 num = input("Enter number: ")
 ch = input("Enter char: ")
 
@@ -22,3 +23,19 @@ ch = input("Enter char: ")
    {
        cout<<"wrong input\n";
    }
+=======
+num=int(input("Insert a number: "))
+counter=2
+
+
+while counter<num:
+    if num%counter==0:
+        break
+    counter+=1
+
+
+if counter==num:
+    print("prime number")
+else:
+    print("not a prime number")
+>>>>>>> e739772a5ee9a8e2c9775dfd593b53ef25373505
