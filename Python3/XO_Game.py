@@ -7,7 +7,7 @@ class Board:
     
     def make_move(self, player, place):
         if self.board[place] != ' ':
-           raise ValueError (f'Place {palce} i already taken.')
+           raise ValueError (f'Place {place} is already taken.')
         self.board[place] = player.marker
         return self.is_winner(player.marker)
 
@@ -21,7 +21,7 @@ class Board:
             [2,5,8],
             [0,4,8],
             [2,4,6] 
-        ]
+            ]
         return any([all([self.board[x] == marker for x in pos]) for pos in winnig_positions])
     def is_draw(self):
         return ' ' not in self.board
@@ -49,8 +49,8 @@ class Game:
                    break
                 except (ValueError, IndexError):
                     move= int(input("Illegal move, please try again.\n"))
-                if is_winner or self.board.is_draw():
-                    break
+            if is_winner or self.board.is_draw():
+                break
 
             self.turn = not self.turn
         print(self.board.to_string())
