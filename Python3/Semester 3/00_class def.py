@@ -1,4 +1,9 @@
 class Student:
+
+    # constractor
+    def __init__(self):
+        print("I am Constractor")
+
     pass 
 
 s1=Student()
