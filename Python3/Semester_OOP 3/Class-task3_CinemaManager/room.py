@@ -4,6 +4,10 @@ class Room:
         self.movie=movie
 
     def order_seats(self, amount):
+        for row in range(0,len(self.matrix_seat)):
+            for col in range(0,len(self.matrix_seat[row])):
+                if not self.matrix_seat[row][col]
+                
 
     def get_info(self):
         seat_status="\n"
