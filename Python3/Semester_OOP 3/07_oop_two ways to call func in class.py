@@ -25,4 +25,8 @@ hello SchoolMember Bob
 hello SchoolMember Bob
 hello SchoolMember Alice
 hello SchoolMember Alice
+<<<<<<< HEAD
 """
+=======
+"""
+>>>>>>> 57dacf9a1dc4f6034bafa0c69e86bd026554bc5b
