@@ -38,3 +38,6 @@ class Mobile:
     @age.setter
     def appArray(self,appArray):
         self.__appArray=appArray
+
+    def printMobileInfo :
+        print(f"virsionNum is: {self.virsionNum}, isAndroid: {self.isAndroid}, memory size is:{self.memorySize},app is: {self.appArray}")
