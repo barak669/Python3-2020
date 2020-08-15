@@ -1,5 +1,12 @@
 class Mobile:
 
+    def __init__(self,virsionNum, isAndroid, memorySize, appArray):
+        self.virsionNum=virsionNum
+        self.isAndroid=isAndroid
+        self.memorySize=memorySize
+        self.appArray=appArray
+
+
     @property
     def virsionNum(self):
         return self.__virsionNum
