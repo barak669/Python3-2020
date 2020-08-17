@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-  
->>>>>>> 57dacf9a1dc4f6034bafa0c69e86bd026554bc5b
 class SchoolMember:
     def __init__(self, name):
         self.name = name
